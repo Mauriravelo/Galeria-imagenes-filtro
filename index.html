@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./estilos.css" />
+    <title>Galería de Imágenes con Filtro javascript</title>
+  </head>
+  <body>
+    <!-- Filtro -->
+    <div class="filtro">
+      <button class="filter-btn" data-category="todos">Mostrar todo</button>
+      <button class="filter-btn" data-category="laptops">Laptops</button>
+      <button class="filter-btn" data-category="audifonos">Audifonos</button>
+      <button class="filter-btn" data-category="teclados">Teclados</button>
+    </div>
+
+    <!-- Fin Filtro -->
+
+    <!-- Galeria -->
+    <div class="galeria">
+      <div class="imagen laptops">
+        <img src="/images/laptop.jpeg" data-category="laptops" />
+      </div>
+      <div class="imagen laptops">
+        <img src="/images/laptop-2.webp" data-category="laptops" />
+      </div>
+      <div class="imagen audifonos">
+        <img src="/images/aricular.jpeg" data-category="audifonos" />
+      </div>
+      <div class="imagen audifonos">
+        <img src="/images/aricular-2.jpeg" data-category="audifonos" />
+      </div>
+      <div class="imagen teclados">
+        <img src="/images/teclado.webp" data-category="teclados" />
+      </div>
+    </div>
+    <!-- Fin Galeria -->
+
+    <!-- Script jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Script index.js -->
+    <script src="./index.js"></script>
+  </body>
+</html>
